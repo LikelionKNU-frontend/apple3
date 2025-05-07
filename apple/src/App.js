@@ -1,15 +1,16 @@
 import React from "react";
-import Chan2 from './Chan2';
-import Sang from './Sang';
+import Chan2 from "./Chan2";
+import Sang from "./Sang";
+import Top from "./Top";
 
 function App() {
   return (
     <div className="app">
-     <Chan2/>
-     <Sang/>
+      <Top />
+      <Chan2 />
+      <Sang />
     </div>
   );
 }
-
 
 export default App;
